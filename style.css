@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    height: 130vh;
+    width: 100%;
+    padding: 0;
+    font-family: 'Open Sans', Times, serif, sans-serif;
+    background: linear-gradient(rgb(202, 46, 46),rgba(12, 0, 0, 0.884));
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 860px;
+    height: 300px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px hsla(0, 0%, 100%, 0.2);
+}
+
+.hobby {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px hsla(0, 27%, 9%, 0.2);  
+}
+
+.contact {
+    width: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px hsla(0, 28%, 12%, 0.2);  
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #451818;
+}
+
+.all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.con {
+    display: flex;
+    gap: 20px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #000000;
+    color: white;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 100;
+    height: 1px;
+    background: #c60303;
+    margin: 20px 0;
+}
