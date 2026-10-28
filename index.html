@@ -1,57 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-        <title>My Personal Bio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Leulseged Degu | Software Engineering Student</title>
+
         <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/lucide@latest"></script>
     </head>
 
     <body>
-        <div class="all">
 
-            <div class="upper-container">
+        <nav class="navbar">
 
-                <div class="">
-                    <img src="profile.jpeg" alt="Profile Picture" class="profile">
-                    <h1>Leulseged Degu</h1>
-                </div>
+            <h2 class="logo">LD.</h2>
 
-                <div>
-                    <p class="bio">
-                        Hello! My Name is Leulseged Degu and I am a Second Year Software
-                        Engineering Student at Addis Ababa Science and Technology University.
-                        I am Passionate About Technology, Programming, and Learning New Skills.
-                        I Enjoy Building Websites, Solving Coding Problems, and Improving My 
-                        Knowledge Everyday.
-                    </p>
-                </div>
+            <div class="nav-links">
+
+                <a href="#home">
+                    <i data-lucide="house"></i>
+                    <span>Home</span>
+                </a>
+
+                <a href="#about">
+                    <i data-lucide="user"></i>
+                    <span>About</span>
+                </a>
+
+                <a href="#interests">
+                    <i data-lucide="sparkles"></i>
+                    <span>Interests</span>
+                </a>
+
+                <a href="#contact">
+                    <i data-lucide="mail"></i>
+                    <span>Contact</span>
+                </a>
 
             </div>
 
-            <div class="bottom-container">
-                <div class="hobby">
-                    <h2>My Hobbies</h2> 
-                    <ul>
-                        <li>Coding</li>
-                        <li>Learning New Digital Skiills</li>
-                        <li>Watching Movies</li>
-                        <li>Listening to Music</li>
-                    </ul>
-                </div>
+        </nav>
 
-                <div class="contact">
-                    <hr>
+
+        <section id="home" class="section home reveal">
+
+            <div class="home-content reveal">
+
+                <img src="profile3.jpg"
+                    alt="Leulseged Degu"
+                    class="profile">
+
+                <p class="welcome">WELCOME TO MY PROFILE</p>
+
+                <h1>
+                    Hi, I'm <span>Leulseged Degu</span>
+                </h1>
+
+                <h2>Software Engineering Student</h2>
+
+                <p>
+                    Passionate about technology, programming,
+                    and turning ideas into digital experiences.
+                </p>
+
+                <a href="#about" class="button">
+                    Discover More
+                    <i data-lucide="arrow-down"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section id="about" class="section about reveal">
+
+            <div class="content reveal">
+
+                <p class="section-label">ABOUT ME</p>
+
+                <h1>Building. Learning. Improving.</h1>
+
+                <p>
+                    I'm a Software Engineering student at Addis Ababa
+                    Science and Technology University with a strong interest
+                    in technology, programming, and web development.
+                </p>
+
+                <p>
+                    I enjoy turning ideas into functional websites,
+                    solving programming problems, and continuously
+                    developing my technical skills.
+                </p>
+
+                <div class="about-box">
+
                     <div>
-                        <h2>Contact</h2>
-                        <p>Email: <a href="mailto:leulsegeddegu91@gmail.com"> leulsegeddegu91@gmail.com</a></p>
-                        <p>Phone: <a href="tel:+251923899861"> +251923899861</a></p>
+                        <i data-lucide="book-open"></i>
+                        <h3>01</h3>
+                        <p>Learning</p>
                     </div>
-                    <hr>
+
+                    <div>
+                        <i data-lucide="code-2"></i>
+                        <h3>02</h3>
+                        <p>Building</p>
+                    </div>
+
+                    <div>
+                        <i data-lucide="trending-up"></i>
+                        <h3>03</h3>
+                        <p>Growing</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section id="interests" class="section interests reveal">
+
+            <div class="content reveal">
+
+                <p class="section-label">MY INTERESTS</p>
+
+                <h1>Things I Enjoy</h1>
+
+                <div class="interest-grid">
+
+                    <div class="interest-card reveal">
+
+                        <div class="interest-heading">
+                            <i data-lucide="code-2"></i>
+                            <h3>Coding</h3>
+                        </div>
+
+                        <p>
+                            Building projects and improving my
+                            programming skills.
+                        </p>
+
+                    </div>
+
+
+                    <div class="interest-card reveal">
+
+                        <div class="interest-heading">
+                            <i data-lucide="globe"></i>
+                            <h3>Web Development</h3>
+                        </div>
+
+                        <p>
+                            Creating websites and exploring modern
+                            web technologies.
+                        </p>
+
+                    </div>
+
+
+                    <div class="interest-card reveal">
+
+                        <div class="interest-heading">
+                            <i data-lucide="brain"></i>
+                            <h3>Learning</h3>
+                        </div>
+
+                        <p>
+                            Learning new technologies and expanding
+                            my knowledge.
+                        </p>
+
+                    </div>
+
+
+                    <div class="interest-card reveal">
+
+                        <div class="interest-heading">
+                            <i data-lucide="music"></i>
+                            <h3>Music</h3>
+                        </div>
+
+                        <p>
+                            Listening to music and discovering
+                            new artists.
+                        </p>
+
+                    </div>
+
+
+                    <div class="interest-card reveal">
+
+                        <div class="interest-heading">
+                            <i data-lucide="clapperboard"></i>
+                            <h3>Movies</h3>
+                        </div>
+
+                        <p>
+                            Watching movies and exploring different
+                            stories and ideas.
+                        </p>
+
+                    </div>
+
+
+                    <div class="interest-card reveal">
+
+                        <div class="interest-heading">
+                            <i data-lucide="lightbulb"></i>
+                            <h3>Problem Solving</h3>
+                        </div>
+
+                        <p>
+                            Breaking down problems and finding
+                            effective solutions.
+                        </p>
+
+                    </div>
+
                 </div>
 
             </div>
-        </div>
+
+        </section>
+
+
+        <section id="contact" class="section contact reveal">
+
+            <div class="content reveal">
+
+                <p class="section-label">GET IN TOUCH</p>
+
+                <h1>Let's Connect.</h1>
+
+                <p>
+                    Have an idea, project, or just want to say hello?
+                    Feel free to reach out.
+                </p>
+
+                <div class="contact-box">
+
+                    <a href="mailto:leulsegeddegu91@gmail.com">
+
+                        <i data-lucide="mail"></i>
+
+                        <span>
+                            leulsegeddegu91@gmail.com
+                        </span>
+
+                    </a>
+
+
+                    <a href="tel:+251923899861">
+
+                        <i data-lucide="phone"></i>
+
+                        <span>
+                            +251 923 899 861
+                        </span>
+
+                    </a>
+
+
+                    <a href="https://github.com/leulseged-degu" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                        
+                        <i data-lucide="github"></i>
+
+                        <span>GitHub</span>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            <footer>
+                <p>© 2026 Leulseged Degu. All rights reserved.</p>
+            </footer>
+
+        </section>  
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="script.js"></script>
 
     </body>
+
 </html>
