@@ -806,3 +806,78 @@ section.reveal.visible::before {
         filter: none;
     }
 }
+
+
+/* ========================================
+   CONTACT SECTION
+======================================== */
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 100px 40px 60px;
+}
+
+.contact .content {
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.contact-box a {
+    min-height: 50px;
+    box-sizing: border-box;
+}
+
+.contact-footer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-footer p {
+    margin: 0;
+}
+
+
+/* ========================================
+   MOBILE CONTACT
+======================================== */
+
+@media (max-width: 768px) {
+
+    .contact {
+        min-height: 100vh;
+        padding: 100px 20px 50px;
+    }
+
+    .contact .content {
+        max-width: 500px;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        gap: 18px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contact-box a {
+        width: 100%;
+    }
+
+    .contact-footer {
+        margin-top: 45px;
+    }
+}
